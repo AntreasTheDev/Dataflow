@@ -300,8 +300,8 @@ glm::ivec2 TileManager::FindLowestCostNeighbor(const glm::ivec2& gridPos)
     glm::ivec2 bestPosition = { -1,-1 };
 
     //8 Neighbors
-    const int dCol[] = { 1, 1, 1, 0, 0, 0, -1, -1, -1 };
-    const int dRow[] = { -1, 0, 1, -1, 0, 1, -1, 0, 1 };
+    const int dCol[] = { 1, 1, 1, 0, 0, -1, -1, -1 };
+    const int dRow[] = { -1, 0, 1, -1, 1, -1, 0, 1 };
 
     //4 Neighbors
     //const int dRow[] = { -1, 0, 1, 0 };
